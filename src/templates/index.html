@@ -33,12 +33,10 @@
           <img src="images/design/logo.svg" alt="Luxspace - Adalah sebuah website yang menjual kebutuhan rumah tangga">
         </div>
         <div class="w-full"></div>
-
         <!-- START: menu hamburger wrapper -->
         <div class="w-auto">
           <ul
-            id="menu"
-            class="fixed bg-white inset-0 flex flex-col invisible items-center justify-center opacity-0 md:visible md:flex-row md:bg-transparent md:relative md:opacity-100">
+            class="fixed bg-white inset-0 flex-col invisible items-center justify-center opacity-0 md:visible md:flex-row md:bg-transparent md:relative md:opacity-100 md:flex">
             <li class="mx-3 py-6 md:py-0">
               <a href="#" class="text-black hover:text-white hover:underline">Showcase</a>
             </li>
@@ -58,14 +56,9 @@
         <div class="w-auto">
           <ul class="flex items-center">
             <li class="ml-6 block md:hidden">
-              <button 
-                id="menu-toggler"
-                class="relative flex z-50 items-center justify-center w-8 h-8 text-black focus:outline-none">
-                <svg 
-                  class="fill-current" 
-                  width="18" height="17" 
-                  viewBox="0 0 18 17" 
-                  fill="none"
+              <button id="menu-toggler"
+                class="relative flex z50 items-center justify-center w-8 h-8 text-black hover:text-white focus:outline-none">
+                <svg class="fill-current" width="18" height="17" viewBox="0 0 18 17" fill="none"
                   xmlns="http://www.w3.org/2000/svg">
                   <path
                     d="M15.9773 0.461304H1.04219C0.466585 0.461304 0 0.790267 0 1.19609C0 1.60192 0.466668 1.93088 1.04219 1.93088H15.9773C16.5529 1.93088 17.0195 1.60192 17.0195 1.19609C17.0195 0.790208 16.5529 0.461304 15.9773 0.461304Z" />
@@ -99,45 +92,6 @@
     </div>
   </header>
   <!-- END:Header -->
-
-  <!-- START: Section Hero -->
-  <section class="flex items-center hero">
-    
-    <!-- START: Section hero | left side -->
-    <div class="w-full absolute z-20 inset-0 md:relative md:w-1/2 text-center flex flex-col justify-center hero-caption">
-      <h1 class="text-3xl md:text-5xl leading-tight font-semibold">
-        The room <br class="" /> You'eve Dreaming
-      </h1>
-      <h2 class="px-8 text-base md:px-0 md:text-lg my-6 tracking-wide">
-        Kami menyediakan kebutuhan rumah anda
-        <br class="hidden lg:block" />
-        yang sangat berkelas
-      </h2>
-      <div>
-        <a href="#browse-the-room" class="bg-pink2 text-black hover:bg-black hover:text-pink-400 rounded-full px-8 py-3 mt-4 inline-block flex-none transition duration-200">Eksplor sekarang</a>
-      </div>
-    </div>
-    <!-- END: Section hero | left side -->
-
-    <!-- START: Section hero | right side -->
-    <div class="w-full inset-0 md:relative md:1/2">
-      <div class="relative hero-image">
-        <div class="overlay inset-0 bg-black opacity-30 z-10"></div>
-          <div class="overlay right-0 bottom-0 md:inset-0">
-            <button class="video hero-cta focus:outline-none z-30 modal-trigger" data-content='<div class="w-screen pb-56 md:w-88 relative z-50">
-                <div class="absolute w-full h-full">
-                  <iframe width="100%" height="100%" src="https://www.youtube.com/embed/aP2sjff94aQ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                </div>
-              </div>'></button>
-          </div>
-          <img class="absolute inset-0 md:relative w-full h-full object-cover object-center"
-               src="images/content/image-hero.jpg"
-               alt="House with sofa and flower">
-      </div>
-    </div>
-    <!-- END: Section hero | right side -->
-  </section>
-  <!-- END: Section Hero -->
 
   <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
   <script>
