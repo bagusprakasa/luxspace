@@ -67,4 +67,12 @@
         grid-auto-flow: dense;
         grid-auto-rows: minmax(180px, auto);
     }
+
+    a.cart svg g circle.dot {
+        @apply hidden;
+    }
+
+    a.cart.cart-filled svg g circle.dot {
+        @apply block;
+    }
 }

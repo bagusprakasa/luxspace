@@ -31,6 +31,9 @@ module.exports = {
       pink: colors.pink,
       // pink: {...colors.pink, 400: "#F9CADA"},
       pink2: "#F9CADA",
+      blue2: "#BCE7FO",
+      gray2: "#F9F9F9",
+      gray3: "#F1F1F1",
     },
     spacing: {
       px: "1px",
