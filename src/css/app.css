@@ -35,6 +35,7 @@
         background-size: 37.5%;
     }
 
+    /* Card */
     .card:hover .card-shadow{
         @apply shadow-lg;
     }
@@ -43,6 +44,23 @@
         @apply transition duration-300 shadow-none h-full;
     }
 
+    /* Breadcrumb */
+    ul.breadcrumb{
+        @apply flex flex-row items-center text-lg;
+    }
+
+    ul.breadcrumb li:not(:last-child):after{
+        content: '/';
+        @apply px-4;
+    }
+
+    ul.breadcrumb li:not(:last-child) a {
+        @apply font-light;
+    }
+
+    ul.breadcrumb li:last-child a{
+        @apply font-semibold;
+    }
 }
 
 @screen md {
